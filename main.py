@@ -1,9 +1,16 @@
-# Nhập hai số từ bàn phím
-a = float(input("Nhập số thứ nhất: "))
-b = float(input("Nhập số thứ hai: "))
+# Nhập hai số nguyên từ người dùng
+num1 = int(input("Nhập số thứ nhất: "))
+num2 = int(input("Nhập số thứ hai: "))
 
 # Tính tổng
-tong = a + b
+tong = num1 + num2
 
-# In kết quả
-print("Tổng của hai số là:", tong)
+# Hiển thị kết quả
+print(f"Tổng của {num1} và {num2} là: {tong}")
+
+# Tính hiệu
+hieu = num1 - num2
+
+# Hiển thị kết quả hiệu 2 số
+print(f"Hiệu của {num1} và {num2} là: {hieu}")
+
